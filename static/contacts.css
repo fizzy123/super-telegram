@@ -1,0 +1,36 @@
+body {
+  font-family: Arial;
+  padding: 30px 50px;
+}
+
+div {
+  display: inline-block;
+}
+
+.error {
+  background-color: red;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+li {
+  border-bottom: 1px #DDD solid;
+}
+
+.field {
+  border-color: transparent;
+  border: none;
+}
+
+.field:hover:not(:focus) {
+  cursor: pointer;
+}
+
+.header {
+  width: 169px;
+  font-weight: bold;
+}
