@@ -184,9 +184,9 @@ $(function(){
           'Contacts'
         ),
         "Search: ",
+        React.createElement('button', {onClick: this.onAdd, className: 'new'}, 'New Contact'),
         React.createElement('input', {onChange: this.onChange, defaultValue: this.state.term}),
-        React.createElement(ContactList, { contacts: this.state.contacts, update: this.update }),
-        React.createElement('button', {onClick: this.onAdd}, 'New Contact')
+        React.createElement(ContactList, { contacts: this.state.contacts, update: this.update })
       );
     }
   });
